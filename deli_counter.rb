@@ -1,8 +1,8 @@
 # Write your code here.
-position = []
+katz_deli = []
 
-def line(position)
-  when position.count == 0
+def line(katz_deli)
+  when katz_deli.count == 0
     puts "The line is currently empty."
   end
 end
