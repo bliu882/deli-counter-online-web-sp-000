@@ -7,7 +7,8 @@ def line(katz_deli)
   end
 end
     
-def take_a_number(position, name)
+def take_a_number(katz_deli, name)
+  puts "Welcom, #{name}. You are number #{katz_deli.last} in line "
   
   
 
