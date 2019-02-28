@@ -7,7 +7,8 @@ def line(position)
   end
 end
     
-def take_a_number(position)
+def take_a_number(position, name)
+  
   
 
 def now_serving 
