@@ -8,8 +8,8 @@ def line(katz_deli)
 end
     
 def take_a_number(katz_deli, name)
-  puts "Welcom, #{name}. You are number #{katz_deli.last} in line "
-  
-  
+  puts "Welcome, #{name}. You are number #{katz_deli.last + 1} in line."
+end
 
-def now_serving 
+def now_serving(katz_deli)
+  puts "Currently serving "
